@@ -42,7 +42,7 @@ public:
 // 2. ShoppingCartPrinter: Only responsible for printing invoices
 class ShoppingCartPrinter {
 private:
-    ShoppingCart* cart; 
+    ShoppingCart* cart; //syntax for getting reference of shoppingCart inside ShoppingCartprinter
 
 public:
     ShoppingCartPrinter(ShoppingCart* cart) { 
